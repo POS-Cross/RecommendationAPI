@@ -5,7 +5,7 @@ from mlxtend.frequent_patterns import association_rules
 
 class DataItems:
     #CSV = "http://ec2-3-128-207-73.us-east-2.compute.amazonaws.com:8002/uploads/uploads/2021/9/20/19e5badc-19f3-11ec-b8c6-09d958cd918a.csv"
-    CSV='Query.csv'
+    CSV='query_sample.csv'
     ''' read the dataset'''
     @classmethod
     def read_dataset(cls):
